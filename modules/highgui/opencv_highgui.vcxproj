@@ -318,14 +318,6 @@
     </ClCompile>
     <ResourceCompile Include="vs_version.rc" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\imgcodecs\opencv_imgcodecs.vcxproj">
-      <Project>{83fc629c-648d-341e-99f4-4e97e007add7}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\videoio\opencv_videoio.vcxproj">
-      <Project>{06a3d594-5e18-3fc3-8ab1-3e7ee6efac15}</Project>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

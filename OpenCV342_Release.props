@@ -5,7 +5,7 @@
   <PropertyGroup />
   <ItemDefinitionGroup>
     <Link>
-      <AdditionalDependencies>zlib.lib;ippicvmt.lib;libjpeg-turbo.lib;libwebp.lib;libpng.lib;libtiff.lib;libjasper.lib;IlmImf.lib;vfw32.lib;opencv_core342.lib;opencv_flann342.lib;opencv_features2d342.lib;opencv_highgui342.lib;opencv_imgcodecs342.lib;opencv_imgproc342.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>zlib.lib;ippicvmt.lib;libjpeg-turbo.lib;libpng.lib;IlmImf.lib;vfw32.lib;opencv_core342.lib;opencv_highgui342.lib;opencv_imgcodecs342.lib;opencv_imgproc342.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)lib\opencv342\3rdparty\lib\Release;$(SolutionDir)lib\opencv342\modules\lib\Release;$(SolutionDir)lib\opencv342\contrib\lib\Release;$(SolutionDir)lib\opencv342\3rdparty\ippicv\ippicv_win\lib\intel64</AdditionalLibraryDirectories>
     </Link>
     <ClCompile>
