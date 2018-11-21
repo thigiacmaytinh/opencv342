@@ -157,7 +157,7 @@
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;__OPENCV_BUILD=1;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CMAKE_INTDIR="Debug";CVAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>$(SolutionDir)lib\Debug\opencv_face342d.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;__OPENCV_BUILD=1;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CMAKE_INTDIR=\"Debug\";CVAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -257,7 +257,7 @@
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
-      <ProgramDataBaseFileName>$(SolutionDir)lib\Release\opencv_face342.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;__OPENCV_BUILD=1;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CMAKE_INTDIR=\"Release\";CVAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -464,17 +464,8 @@
     <ResourceCompile Include="vs_version.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\modules\core\opencv_core.vcxproj">
-      <Project>{d7300f2b-6873-3e59-8a75-e8352d6fee56}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\..\modules\imgproc\opencv_imgproc.vcxproj">
-      <Project>{11c1ce5d-fbba-3746-a9e3-0afb19dfea98}</Project>
-    </ProjectReference>
     <ProjectReference Include="..\..\modules\objdetect\opencv_objdetect.vcxproj">
       <Project>{cc86b3b3-bd7b-3901-b8d7-bd5ce93035ee}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\..\modules\photo\opencv_photo.vcxproj">
-      <Project>{44ba9422-1164-324a-8a58-9cdec60c7a61}</Project>
     </ProjectReference>
     <ProjectReference Include="..\..\modules\video\opencv_video.vcxproj">
       <Project>{b224a3dd-12ec-3230-97c8-13a34b53024e}</Project>
